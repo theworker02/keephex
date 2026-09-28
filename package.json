@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/keephex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Keep structured JSON hex payloads without a heavyweight toolkit.",
+  "bin": {
+    "keephex": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/keephex.git"
+  },
+  "homepage": "https://theworker02.github.io/keephex/",
+  "keywords": [
+    "keep",
+    "hex",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
